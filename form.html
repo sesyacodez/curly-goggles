@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form sample</title>
+</head>
+<body>
+    <header>
+        <h1>form sample</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <form action="https://formspree.io/mrgywzqo" method="POST">
+            <label>Your name:
+                <input type="text" name="clent-name" placeholder="Your name..." required>
+            </label>
+        <br>
+            <label>Your email:
+                <input type="email" name="client-email" placeholder="Your email..." required>
+            </label>
+        <br>
+            <label>Your gender:
+                <input type="radio" name="gender" value="Male">Male
+            </label>
+             <label>
+                <input type="radio" name="gender" value="Female">Female
+            </label>
+             <label>
+                <input type="radio" name="gender" value="Other">Other
+            </label>
+        <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </main>
+</body>
+</html>
